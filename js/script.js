@@ -1,7 +1,8 @@
-let integers = [5, 3]; // Example values
-let operators = ['+', '-', '*', '/'] //classic calculation operators
+let a = Number(prompt("Enter the first number:"));
+let b = Number(prompt("Enter the second number:"));
+let operator = prompt("Enter an operator (+, -, *, /):");
 
-function calculate(a, b, operator) { // Function to perform calculation based on operator   
+function calculate(a, b, operator) {
     switch (operator) {
         case '+':
             return a + b;
@@ -12,7 +13,8 @@ function calculate(a, b, operator) { // Function to perform calculation based on
         case '/':
             return a / b;
         default:
-            return null;
+            return "Invalid operator";
     }
 }
-console.log(calculate(integers[0], integers[1], operators[0])); // Example usage
+
+console.log(calculate(a, b, operator));
