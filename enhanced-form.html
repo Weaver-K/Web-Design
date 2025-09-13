@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+ <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="An enhanced form with additional features for better user experience.">
+        <meta name="keywords" content="Tables, Form, User Experience, Web Design">
+        <meta name="author" content=Weaver-K>
+        <title>Assignment</title>    </head>
+    <body>
+        <header>
+        <h1>Enhanced Form</h1>
+        <hr/>
+           <h2>Tables</h2>
+            <p>This is a table represnting the ID no for people and their names</p>
+            <p>This is a list representing what items would be included in my table</p>
+            <h3> Names</h3>
+            <ul>
+                <li>Mary Jane</li>
+                <li>Klein Moretti</li>
+                <li>John Doe</li>
+                <li>Jane Smith</li>
+            </ul>
+            <h3> ID Numbers</h3>
+            <ul>
+                <li>12345</li>
+                <li>67890</li>
+                <li>54321</li>
+                <li>09876</li>
+            </ul>
+            <table border="1" style="border-collapse: collapse;" width="70%">
+              <thead>
+                <tr>
+                    <th>ID Number</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                </tr>
+              </thead>
+                <tbody>
+                    <tr>
+                        <td>12345</td>
+                        <td>Mary</td>
+                        <td>Jane</td>
+                    </tr>
+                    <tr>
+                        <td>67890</td>
+                        <td>Klein</td>
+                        <td>Moretti</td>
+                    </tr>
+                    <tr>
+                        <td>54321</td>
+                        <td>John</td>
+                        <td>Doe</td>
+                    </tr>
+                    <tr>
+                        <td>09876</td>
+                        <td>Jane</td>
+                        <td>Smith</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h2>Form</h2>
+            <p>This is a form that collects user information for the above people</p>
+            <form action="/submit" method="post">
+                <label for="Firstname">FirstName:</label>
+                <input type="text" id="firstname" name="firstname" placeholder="Enter First Name" required minlength="3">
+                <br>
+                <label for="Lastname">Last Name:</label>
+                <input type="text" id="lastname" name="lastname" placeholder="Enter Last Name" required minlength="3">
+                <br>
+                <label for="id">ID Number:</label>
+                <input type="text" id="id" name="id" required pattern="\d{5}" title="ID Number must be 5 digits">
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+                <h2>Videos and audio</h2>
+                <h2>Videos and audio</h2>
+                <p>Here is a video and audio file that I have included in my form</p>
+                <p>This is a short video of a rabbit, enjoy</p>
+                <video width="320" height="240" controls>
+                    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p>This audio is just one of my favorite songs</p>
+                <p>This is a song by Don Toliver called TORE UP</p>
+                <!--Enjoy--> 
+                <audio controls>
+                    <source src="./Don_Toliver_-_TORE_UP_[Official_Audio](128k) (1).mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio> 
+    </body> 
+ </html>  

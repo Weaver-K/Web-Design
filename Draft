@@ -1,0 +1,50 @@
+    <head>
+        <title  >My Web Page</title>
+    </head>
+    <body>
+        <!-- Semantic html-->
+        <!--header-->
+        <header>
+         <h1>Sup</h1>
+            <nav>
+                <a href="/">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact Us</a>   
+        <p>Welcome to My Web Page<p>
+        <p>This is a paragraph of text on my first web page.</p>
+            </nav>
+        </header>
+        <!--main content-->
+        <main>
+            <article>
+                <p>Feels great to start web learning</p>
+                <p>Isn't this amazing!</p>
+            </article>
+            <section>
+                <h2>My Future Goals</h2>
+                <ul>
+                    <li>Learn HTML</li>
+                    <li>Learn CSS</li>
+                    <li>Learn JavaScript</li>
+                    <li>Learn bash</li>
+                    <li>Learn Python</li>
+                    <li>Learn C</li>
+                    <li>Learn C++</li>
+                    <li>Learn Go</li>
+                    <li>Learn networking</li>
+                    <li>Learn DevOps</li>
+                    <li>Get into cybersecurity</li>
+                <ul>
+            </section>
+            <aside>
+                <h3>Quick Links</h3>
+                <a href="https://academy.powerlearnprojectafrica.org/">PowerLearn Academy</a>
+                <a href="https://www.websec.org/">Websec</a>
+                <a href="https://www.youtube.com/@davidbombal/">David bombal</a>
+            </aside>
+        </main>
+        <!--footer-->
+        <footer>    
+            <p>&copy; 2025. Eddy. All Rights Reserved.</p>
+        </footer>
+    </body> 
