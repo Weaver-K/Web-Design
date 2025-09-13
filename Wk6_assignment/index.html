@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="description" content="An enhanced form with additional features for better user experience.">
+            <meta name="keywords" content="Tables, Form, User Experience, Web Design">
+            <meta name="author" content=Weaver-K>
+            <title>Assignment</title>
+            <style>
+  body {
+    background: #fff;
+    color: #222;
+    transition: background 0.3s, color 0.3s;
+  }
+  body.dark-mode {
+    background: #222;
+    color: #fff;
+  }
+</style>
+        </head>    
+        <body>
+            <button id="mybutton">Togle light/dark mode</button>
+            <script src="js/script.js" ></script>
+            <link rel="stylesheet" href="styles/styles.css">
+            <header>
+                <h1>Interactive Website</h1>
+                <h2>User Login</h2>
+                <p>This is where the user enters there login details</p>
+                <form action="/submit" method="post" id="loginForm">
+                <label for="Firstname">FirstName:</label>
+                <input type="text" id="firstname" name="firstname" placeholder="Enter First Name" required minlength="3" required>
+                <br>
+                <label for="Lastname">Last Name:</label>
+                <input type="text" id="lastname" name="lastname" placeholder="Enter Last Name" required minlength="3" required>
+                <br>
+                <label for="id">ID Number:</label>
+                <input type="text" id="id" name="id" required pattern="\d{5}" title="ID Number must be 5 digits" required placeholder="Enter ID Number">
+                <br>
+                <button type="submit" value="Submit" id="submitBtn">Submit</button>
+                <span id="errorMessage" style="color: red; display: none"></span> 
+            </form>
+            </header>    
+        </body>
+    </html>
+<!DOCTYPE html>
